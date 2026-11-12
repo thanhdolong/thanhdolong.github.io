@@ -42,6 +42,7 @@ border-radius:100px;padding:14px 22px;min-height:52px;transition:transform .15s 
 .read{background:var(--paper);color:var(--ink)}
 .more{background:transparent;color:var(--paper);border:2px solid rgba(255,255,255,.6)}
 .more:focus-visible,.read:focus-visible{outline-color:var(--yellow)}
+.about{display:flex;flex-direction:column;gap:12px}.about p{margin:0}.mc{background:transparent;color:var(--ink);border:2px solid var(--ink)}.mc:focus-visible{outline-color:var(--purple)}
 footer{font-size:14px;opacity:.7;text-align:center}
 .rise{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
 @keyframes rise{from{transform:translateY(14px)}to{transform:none}}
@@ -75,6 +76,11 @@ footer{font-size:14px;opacity:.7;text-align:center}
     <p>Part 1: how to build a design system people and agents will actually use. Part 2: what broke, and seven ways to stop the slop.</p>
     <a class="btn read" href="https://medium.com/manychat-engineering/how-to-build-an-agentic-design-system-people-and-agents-will-actually-use-part-1-1b08abca90bd" target="_blank" rel="noopener">Part 1: how to build it <span aria-hidden="true">↗</span></a>
     <a class="btn read" href="https://medium.com/manychat-engineering/i-broke-things-so-you-dont-have-to-lessons-from-an-agentic-design-system-part-2-549043fac8e2" target="_blank" rel="noopener">Part 2: stop the slop <span aria-hidden="true">↗</span></a>
+  </section>
+  <section class="about rise" style="animation-delay:.32s" aria-label="About Manychat">
+    <p class="eyebrow">New to Manychat?</p>
+    <p>We build tools that help businesses automate conversations on Instagram, WhatsApp and Messenger.</p>
+    <a class="btn mc" href="https://manychat.com" target="_blank" rel="noopener">What is Manychat <span aria-hidden="true">↗</span></a>
   </section>
   <footer>Design system team at Manychat</footer>
 </main>
